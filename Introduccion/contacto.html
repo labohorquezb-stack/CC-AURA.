@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contacto | CC AURA</title>
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+<header class="cabecera">
+  <a class="marca" href="index.html"><img src="imagenes/logo.png" alt="Logotipo de CC AURA: emblema de águila" height="40"><span>CC AURA</span></a>
+  <nav><ul><li><a href="index.html">Inicio</a></li><li><a href="productos.html">Productos</a></li><li><a href="nosotros.html">Nosotros</a></li><li><a href="contacto.html" class="activo">Contacto</a></li><li><a href="carrito.html">🛒 Carrito</a></li></ul></nav>
+</header>
+<main>
+<section class="contenedor angosto">
+  <h1>Contáctanos</h1>
+  <p class="aviso"><strong>Importante:</strong> este formulario es una demostración. No envía mensajes reales sin un servicio adicional. Al enviarlo, el navegador revisa los campos y te lleva a una página de confirmación.</p>
+  <form action="gracias.html" method="get">
+    <label for="nombre">Nombre</label>
+    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required minlength="3">
+    <label for="correo">Correo electrónico</label>
+    <input type="email" id="correo" name="correo" placeholder="nombre@correo.com" required>
+    <label for="asunto">Asunto</label>
+    <input type="text" id="asunto" name="asunto" placeholder="¿Sobre qué quieres escribir?" required>
+    <label for="mensaje">Mensaje</label>
+    <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje (mínimo 10 caracteres)" required minlength="10"></textarea>
+    <button type="submit" class="boton">Enviar mensaje</button>
+  </form>
+</section>
+</main>
+<footer class="pie">
+  <p><strong>CC AURA</strong> · Moda, calzado y accesorios</p>
+  <p class="nota">Proyecto académico – Introducción a la Ingeniería. Tienda de demostración: no se realizan pagos reales.</p>
+</footer>
+</body>
+</html>
